@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-01T13:25:42 IST" name="Suite" finished-at="2024-09-01T13:26:04 IST" duration-ms="22174">
+    <groups>
+    </groups>
+    <test started-at="2024-09-01T13:25:42 IST" name="Test" finished-at="2024-09-01T13:26:04 IST" duration-ms="22174">
+      <class name="Test_Case_File.TestCase">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:Test_Case_File.TestCase@4562e04d]" started-at="2024-09-01T13:25:42 IST" name="browserLaunch" finished-at="2024-09-01T13:25:54 IST" duration-ms="11391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="loginCase(java.lang.String,java.lang.String)[pri:0, instance:Test_Case_File.TestCase@4562e04d]" started-at="2024-09-01T13:25:59 IST" name="loginCase" data-provider="DataPro" finished-at="2024-09-01T13:26:04 IST" duration-ms="5084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCase -->
+      </class> <!-- Test_Case_File.TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
