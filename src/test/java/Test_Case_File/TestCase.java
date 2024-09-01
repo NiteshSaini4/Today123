@@ -8,7 +8,7 @@ import Utilities_File.Data_Driven_Testing;
 
 public class TestCase extends BaseClass
 {
-	@Test(dataProvider = "DataPro")
+	@Test(dataProvider = "DataPro1")
 	void loginCase(String user,String pass)
 	{
 		driver.get(url);
@@ -18,7 +18,7 @@ public class TestCase extends BaseClass
 		lc.user_Sub();
 		
 	}
-	@DataProvider(name="DataPro")
+	@DataProvider(name="DataPro1")
 	public String[][] getData() throws Exception
 	{
 		String file_name="C:\\Users\\user\\Desktop\\testdata.xlsx";
@@ -31,7 +31,7 @@ public class TestCase extends BaseClass
 			{
 				s1[i][j]=Data_Driven_Testing.getCellvalue(file_name,"Sheet1",i,j);
 			}
-		}
+		}//hello welcome
 		return s1;
 	}
 }
